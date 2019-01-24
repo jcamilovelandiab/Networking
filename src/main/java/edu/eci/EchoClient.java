@@ -28,6 +28,7 @@ public class EchoClient {
             System.out.println("echo: " + in.readLine());
 
         }
+
         out.close();
         in.close();
         stdIn.close();
